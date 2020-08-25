@@ -1,8 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.android.gms:play-services-cast:16.1.2@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/59bd521f4c01dce335736274435fb013/play-services-cast-16.1.2/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/59bd521f4c01dce335736274435fb013/play-services-cast-16.1.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b76c49bc63e6febe8c9d0ddba2e893a5/jetified-play-services-cast-16.1.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b76c49bc63e6febe8c9d0ddba2e893a5/jetified-play-services-cast-16.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b76c49bc63e6febe8c9d0ddba2e893a5/jetified-play-services-cast-16.1.2/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-cast/16.1.2/383e0f6ba90ebfc8d415ff10b4cec8ee17437f25/play-services-cast-16.1.2-javadoc.jar!/" />

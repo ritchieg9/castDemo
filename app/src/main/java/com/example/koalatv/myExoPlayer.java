@@ -20,7 +20,6 @@ import android.widget.ImageView;
 import androidx.fragment.app.Fragment;
 import androidx.mediarouter.app.MediaRouteButton;
 
-import com.example.josterman.draggablevideo.R;
 import com.google.android.exoplayer2.C;
 import com.google.android.exoplayer2.ExoPlaybackException;
 import com.google.android.exoplayer2.ExoPlayer;
@@ -100,8 +99,9 @@ public class myExoPlayer extends Fragment implements View.OnClickListener, ExoPl
     private MediaRouteButton mediaRouteButton;
     private boolean castMediaQueueCreationPending;
 
-    public myExoPlayer()
+    public myExoPlayer(String mUrl)
     {
+        setContentURI(mUrl);
         // Required empty public constructor
     }
     
@@ -112,13 +112,14 @@ public class myExoPlayer extends Fragment implements View.OnClickListener, ExoPl
      * @return A new instance of fragment myExoPlayer.
      */
     // TODO: Rename and change types and number of parameters
-    public static myExoPlayer newInstance(PlayerControlView castControlView)
+    public static myExoPlayer newInstance(PlayerControlView castControlView, String mUrl)
     {
-        myExoPlayer fragment = new myExoPlayer();
+        myExoPlayer fragment = new myExoPlayer(mUrl);
 
         fragment.castControlView = castControlView;
         Bundle args = new Bundle();
         fragment.setArguments(args);
+
         return fragment;
     }
     
